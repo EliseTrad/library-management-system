@@ -1,0 +1,4 @@
+S&Layla Khoury&Beirut, Hamra&F&22&70-123456&S12345&123456##
+C&Ali Fadel&Tripoli, Mina&M&35&03-987654&C67890&250.5&123456789##
+S&Rami El-Hassan&Jounieh, Keserwan&M&20&81-456789&S67891&987654##
+C&Sara Mrad&Byblos, Old Souk&F&28&76-234567&C78901&150.75&987654321##
