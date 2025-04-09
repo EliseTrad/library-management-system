@@ -193,8 +193,10 @@ public class Main {
      */
     public static void saveAllToFiles(ArrayList<Person> members, ArrayList<LibraryItem> items)
             throws FileNotFoundException {
-        saveAllItems(items, "data/items.txt");
-        saveAllMembers(members,"data/members.txt");
+        saveAllItems(items, 
+            "C:\\dev\\LibraryManagementSystem\\LibraryManagementSystem\\data\\items.txt");
+        saveAllMembers(members,
+            "C:\\dev\\LibraryManagementSystem\\LibraryManagementSystem\\data\\members.txt");
     }
 
     /**
@@ -208,8 +210,10 @@ public class Main {
             throws FileNotFoundException {
         ArrayList<String> borrowed = new ArrayList<>();
         ArrayList<String> owners = new ArrayList<>();
-        loadAllmembers(members, borrowed, "data/items.txt");
-        loadAllItems(items, owners, "data/members.txt");
+        loadAllmembers(members, borrowed, 
+            "C:\\dev\\LibraryManagementSystem\\LibraryManagementSystem\\data\\items.txt");
+        loadAllItems(items, owners, 
+            "C:\\dev\\LibraryManagementSystem\\LibraryManagementSystem\\data\\members.txt");
         adjustOwners(members, items, owners);
         adjustBorrowed(members, items, borrowed);
     }
