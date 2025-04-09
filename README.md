@@ -43,4 +43,8 @@ This is a **Java-based Library Management System** that allows users to manage l
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/EliseTrad/library-management-system.git
+<<<<<<< HEAD
    cd library-management-system
+=======
+   cd library-management-system
+>>>>>>> 58da082385ef037d86c053edc9dd066d46e672c6
